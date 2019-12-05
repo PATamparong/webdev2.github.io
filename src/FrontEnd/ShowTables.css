@@ -1,0 +1,237 @@
+input {
+    width: 390px;
+    padding: 8px 15px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+input:focus {
+    background-color:rgb(236, 231, 231);
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+}
+h2 {
+    margin-top:30px;
+    font-size: 20px;
+    font-family: cursive;
+    color:whitesmoke;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 100px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+  }
+button {
+    background-color:rgb(149, 233, 149); 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+b {
+    color: black;
+}
+
+#chose {
+    width: 900px;
+    height: 550px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj12IwatHDWYWcmN6Usv-3vxcHl8SdoqP-tK7LO8zDRO3p6NPx&s");
+    /* padding-top: 5px;
+    padding-bottom: 50px; */
+    float: left;
+    margin-left:100px;
+}
+
+#display {
+    margin-right: 90px;
+    width: 400px;
+    height: 100px;
+    padding-top: 30px;
+    float:right;
+    color:#252574;
+    background-color:transparent;
+}
+
+.card1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:500px;
+    height:550px;  
+    background-size:cover;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSB2sanMl5zZrFUpKTNHAh8dt1isEfGmfgDkg5h-f8IGjtzWNIHQ&s");
+    bottom:100px;
+    margin-right:40px;
+    float:right;
+}
+
+.container1 {
+  padding: 2px 16px;
+}
+
+.chose{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1R_7Du4UsjH12hTQnTVymFeyM4WJLOkLzC86PoXiSVhLURM9s&s");
+    background-size:cover;
+}
+
+.nickname{
+    background-repeat:no-repeat;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ98VKM5-B9X-qxiU3YLVnEr9eNZo8rfLbBsrn9J6KU6qKggV-Jw&s");
+    height:695px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: #cccccc;
+}
+
+.active{
+    padding:10px;
+    margin-bottom:50px;
+    font-size:20px;
+    background-color:orange;
+}
+
+.navbar{
+    background-color: rgb(20, 151, 228);
+    margin-bottom: 50px;
+    padding:8px;
+}
+
+.editor{
+    margin-top: 40px;
+    height:20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    height:40px;
+    width: 100%;
+    background-color: rgb(20, 151, 228);
+    color: white;
+    text-align: center;
+ }
+
+  .body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    font-size: 18px;
+    Color:aqua;
+
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 10px;
+  }
+
+  .footer1 {
+    position: fixed;
+    left: 0;
+    bottom: 15px;
+    height:50px;
+    width: 100%;
+    background-color: rgb(20, 151, 228);
+    color: white;
+    text-align: center;
+ }
+
+ .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:500px;
+    background:transparent;
+    bottom:100px;
+    margin-top:183px;
+  } 
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .username{
+    font-family:cursive;
+    color: black;
+    background-color:orange;
+    margin-left: 115px;
+    font-style:Italic;
+  }
+
+  .greeting1 {
+    margin-left: 115px;
+    margin-top: 30px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color:blue
+  }
+
+  .greeting2 {
+    margin-top: 30px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color:blue
+  }
+
+  /* modal */
+  .search{
+    padding-top: 30px;
+    padding-bottom:100px;
+    margin-top:50px;
+  }
+  
+  /* .modal{
+    text-align: center;
+  } */
+
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .modal-main {
+    position:fixed;
+    background: white;
+    width: 80%;
+    height: auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .display-block {
+    display: block;
+  }
+  
+  .display-none {
+    display: none;
+  }
