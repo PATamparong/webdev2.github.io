@@ -122,7 +122,7 @@ class Action extends Component {
                         <center>
                         <div id="display">
                         <h1 class= "greeting1">WELCOME to JeepMe!</h1>
-                        <img class="image" src={image} alt="" ></img>
+                        <img class="image" size="large" src={image} alt="" ></img>
                         <h1 class= "username">{this.props.username}</h1>
                         </div>
                         </center>
