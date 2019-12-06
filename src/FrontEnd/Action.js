@@ -99,12 +99,11 @@ class Action extends Component {
 
     conditionHandler(e){
         e.preventDefault();
-        if(this.state.location === " " || this.state.destination === " "){
-            this.setState({show: false});
+        if(this.state.location === "" || this.state.destination === ""){
+            this.setState({modalOpen: false});
             swal("cannot search!", "required input", "error");
         }else{
-            this.setState({show: true});
-            return <Modal/>
+            this.setState({modalOpen: true});
         }
     }
     render(){
@@ -154,7 +153,7 @@ class Action extends Component {
                         />
                         </div> */}
                     <Modal
-                        trigger={<Button color="blue" onClick={this.handleOpen}>SEARCH</Button>}
+                        trigger={<Button color="blue" onClick={(e) => this.conditionHandler(e)}>SEARCH</Button>}
                         open={this.state.modalOpen}
                         onClose={this.handleClose}
                         basic
