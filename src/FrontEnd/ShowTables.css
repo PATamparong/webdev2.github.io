@@ -53,14 +53,14 @@ b {
 
 #chose {
     width: 900px;
-    height: 550px;
+    height: 600px;
     background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj12IwatHDWYWcmN6Usv-3vxcHl8SdoqP-tK7LO8zDRO3p6NPx&s");
     /* padding-top: 5px;
     padding-bottom: 50px; */
     float: left;
     margin-left:100px;
 }
-
+/* overall display of nickname in Actions.js */
 #display {
     margin-right: 90px;
     width: 400px;
@@ -70,12 +70,12 @@ b {
     color:#252574;
     background-color:transparent;
 }
-
+/* card in Action.js */
 .card1{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width:500px;
-    height:550px;  
+    width:505px;
+    height:600px;  
     background-size:cover;
     background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSB2sanMl5zZrFUpKTNHAh8dt1isEfGmfgDkg5h-f8IGjtzWNIHQ&s");
     bottom:100px;
@@ -86,40 +86,40 @@ b {
 .container1 {
   padding: 2px 16px;
 }
-
+/* card that contains search input */
 .chose{
     background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1R_7Du4UsjH12hTQnTVymFeyM4WJLOkLzC86PoXiSVhLURM9s&s");
     background-size:cover;
 }
-
+/* AskNickname */
 .nickname{
     background-repeat:no-repeat;
     background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ98VKM5-B9X-qxiU3YLVnEr9eNZo8rfLbBsrn9J6KU6qKggV-Jw&s");
-    height:695px;
+    height:730px;
     background-position: center;
     background-size: cover;
     position: relative;
     background-color: #cccccc;
 }
-
+/*home navigation tab */
 .active{
     padding:10px;
     margin-bottom:50px;
     font-size:20px;
     background-color:orange;
 }
-
+/* navigation */
 .navbar{
     background-color: rgb(20, 151, 228);
     margin-bottom: 50px;
     padding:8px;
 }
-
+/* search input */
 .editor{
-    margin-top: 40px;
-    height:20px;
+    margin-top: 10px;
+    height:35px;
 }
-
+/* footer in AskNickname */
 .footer {
     position: fixed;
     left: 0;
@@ -143,7 +143,7 @@ b {
     grid-column-gap: 50px;
     grid-row-gap: 10px;
   }
-
+/* footer in action.js */
   .footer1 {
     position: fixed;
     left: 0;
@@ -154,7 +154,7 @@ b {
     color: white;
     text-align: center;
  }
-
+/* card in AskNickname.js */
  .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -173,24 +173,18 @@ b {
   .container {
     padding: 2px 16px;
   }
-
+/* Nickname catch by Action.js */
   .username{
     font-family:cursive;
     color: black;
     background-color:orange;
     margin-left: 115px;
     font-style:Italic;
+    margin-top:10px;
   }
-
+/* greetings in Action.js*/
   .greeting1 {
     margin-left: 115px;
-    margin-top: 30px;
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    color:blue
-  }
-
-  .greeting2 {
     margin-top: 30px;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
@@ -203,11 +197,6 @@ b {
     padding-bottom:100px;
     margin-top:50px;
   }
-  
-  /* .modal{
-    text-align: center;
-  } */
-
 
   .modal {
     position: fixed;
@@ -234,4 +223,9 @@ b {
   
   .display-none {
     display: none;
+  }
+
+  /* image */
+  .image{
+    margin-left: 110px;
   }

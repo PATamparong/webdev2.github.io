@@ -5,6 +5,8 @@ import './ShowTables.css';
 import axios from 'axios';
 import {  Header, Icon,Button, Modal } from 'semantic-ui-react'
 import swal from 'sweetalert';
+import image from './image.jpg';
+
 
 class Action extends Component {
     constructor(props){
@@ -120,6 +122,7 @@ class Action extends Component {
                         <center>
                         <div id="display">
                         <h1 class= "greeting1">WELCOME to JeepMe!</h1>
+                        <img class="image" src={image} alt="" ></img>
                         <h1 class= "username">{this.props.username}</h1>
                         </div>
                         </center>
@@ -175,7 +178,7 @@ class Action extends Component {
                 </div>
 
                 <div class="footer1">
-                    <center><p>Thank you so much for using our app!!</p></center>
+                    <center><p>THANK YOU FOR USING OUR APP</p></center>
                 </div>
             </div>
             </center>
